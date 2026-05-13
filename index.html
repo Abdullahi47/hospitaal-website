@@ -1,113 +1,296 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="so">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Isbitaal Casri ah</title>
 
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body>
-    <div class="flex bg-blue-500 justify-between  w-[100%] h-[80px]">
-        <h1 class="text-white ml-10 mt-10 font-30"> Hospital</h1>
-        <ul class="flex mr-150 mt-10 text-white gap-20">
-            <li>Home</li>
-            <li>About</li>
-            <li>Contact</li>
+
+<body class="bg-gray-100 font-sans">
+
+  <header class="bg-blue-600 text-white shadow-lg sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto flex justify-between items-center px-8 py-5">
+
+      <div class="flex items-center gap-3">
+        <i class="fa-solid fa-hospital text-3xl"></i>
+        <h1 class="text-2xl font-bold">Isbitaal</h1>
+      </div>
+
+      <nav>
+        <ul class="flex gap-10 text-lg font-medium">
+          <li>
+            <a href="index.html" class="hover:text-yellow-300 duration-300">Bogga Hore</a>
+          </li>
+
+          <li>
+            <a href="about.html" class="hover:text-yellow-300 duration-300">Nagu Saabsan</a>
+          </li>
+
+          <li>
+            <a href="contact.html" class="hover:text-yellow-300 duration-300">Xiriir</a>
+          </li>
         </ul>
+      </nav>
+
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="max-w-7xl mx-auto px-8 py-20">
+
+    <div class="grid md:grid-cols-2 items-center gap-16">
+
+      <!-- Text -->
+      <div>
+
+        <p class="text-blue-600 font-bold mb-4 text-xl">
+          Kusoo dhawoow Isbitaalkeena
+        </p>
+
+        <h1 class="text-5xl font-black leading-tight text-gray-800">
+          Waxaan bixinaa
+          <span class="text-blue-600">
+            adeeg caafimaad
+          </span>
+          oo casri ah
+        </h1>
+
+        <p class="mt-6 text-gray-600 text-lg leading-relaxed">
+          Waxaan daryeel caafimaad oo tayo leh siinaa bulshada,
+          annagoo adeegsanayna teknoolojiyad casri ah iyo
+          dhakhaatiir khibrad leh.
+        </p>
+
+        <div class="mt-8 flex gap-5">
+
+          <button class="bg-blue-600 hover:bg-blue-700 duration-300 text-white px-8 py-3 rounded-xl shadow-lg">
+            Ballan Qabo
+          </button>
+
+          <button class="border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white duration-300 px-8 py-3 rounded-xl">
+            Wax Badan
+          </button>
+
+        </div>
+
+      </div>
+
+      <!-- Image -->
+      <div>
+        <img
+          class="rounded-3xl shadow-2xl w-full h-[500px] object-cover"
+          src="https://i.pinimg.com/1200x/a0/25/7a/a0257a7d545aa1b1d111662a09f70b8c.jpg"
+          alt="Hospital"
+        />
+      </div>
+
     </div>
 
-<div>
-    <div class="flex justify-between mt-20">
-        <div>
-        <h1 class="ml-10 text-[40px]"> we are a full service <br>
-        clinic with modern <br>
-     <span class="bg-blue-500 text-[white]"> Technology</span> </h1>
-    <button class="width-[160px] h-[40px] bg-blue-500 ml-10 mt-10 p-2 rounded text-white ">Book Appointment</button>
-    </div>
-    <div>
-    <img class=" h-[500px] w-[600px] mr-[200px] br-[15px] " src="https://i.pinimg.com/1200x/a0/25/7a/a0257a7d545aa1b1d111662a09f70b8c.jpg" alt="">
-    </div>
-    </div>
-</div>
-
-<div class=" mr-20">
-    <h1 class=" text-[40px] ml-150 mt-20" >Our departments </h1>
-    <div class="flex justify-around mt-10">
-   <div class="w-[150px] h-[100px] bg-blue-500 rounded">
-        <i  class="fa-solid fa-truck-medical text-[50px] ml-10 text-[white] mt-2  " ></i>
-        <p class="ml-10 text-[white] mt-5">Emergency CARE</p>
-    </div>
-    <div class="w-[150px] h-[100px] bg-blue-500 rounded">
-        <i  class="fa-solid fa-heart-circle-check text-[50px] ml-10 text-[white]  " ></i>
-        <p class="ml-10 text-[white] mt-5">Quality oharacy</p>
-    </div>
-    <div class="w-[150px] h-[100px] bg-blue-500 rounded ">
-        <i  class="fa-solid fa-user-doctor text-[50px] ml-10 text-[white]  " ></i>
-        <p class="ml-10 text-[white] mt-5">special doctors</p>
-    </div>
-</div>
-</div>
-
-
-
-<section class="bg-blue-600 py-12 px-16 flex justify-around  gap-8 mt-10">
-    <div class="text-center text-white">
-      <p class=" text-4xl font-black">15K+</p>
-      <p class=" mt-1">Patients Treated</p>
-    </div>
-    <div class="text-center text-white">
-      <p class=" text-4xl font-black">200+</p>
-      <p class=" mt-1">Expert Doctors</p>
-    </div>
-    <div class="text-center text-white">
-      <p class=" text-4xl font-black">20+</p>
-      <p class=" mt-1">Years Experience</p>
-    </div>
-    <div class="text-center text-white">
-      <p class=" text-4xl font-black">50+</p>
-      <p class="mt-1">Departments</p>
-    </div>
   </section>
 
-<footer class="bg-gray-900 text-gray-400  pt-16 mt-10">
-    <div class="flex justify-around gap-12 mb-10">
-      <div>
-        <div class="flex items-center gap-2 mb-4">
-          <i class="fa-solid fa-hospital text-blue-500 text-xl"></i>
-          <span class=" text-white text-xl font-black">Hospital</span>
-        </div>
-        <p class="leading-relaxed">Isbitaalka  lagu kalsoon yahay magaalada.  <br>Waxaan mudnaanta koowaad siinnaa bukaannada annagoo bixinayna daryeel <br> caafimaad oo naxariis leh iyo adeegyo casri ah.
-</p>
-      </div>
- 
-      <div>
-        <h4 class="text-white font-semibold mb-5">Quick Links</h4>
-        <ul class="space-y-3 list-none">
-          <li class="">Home</li>
-          <li class="">About Us</li>
-          <li class="">Contact</li>
-        </ul>
-      </div>
- 
-      <div>
-        <h4 class="text-white font-semibold mb-5">Contact Us</h4>
-        <ul class="space-y-3 list-none">
-          <li class="flex items-center gap-2"><i class="fa-solid fa-phone text-blue-500"></i> +252 618134093</li>
-          <li class="flex items-center gap-2"><i class="fa-solid fa-envelope text-blue-500"></i> info@Hospital.com</li>
-          <li class="flex items-center gap-2"><i class="fa-solid fa-location-dot text-blue-500"></i> seypiano km6,road</li>
-        </ul>
-      </div>
- 
-    </div>
- 
-    <div class=" border-gray-700 pt-6 text-center text-gray-600 ">
-        <hr>
-      © 2025  Hospital. All rights reserved.
-    </div>
-  </footer>
+  <!-- SERVICES -->
+  <section id="services" class="bg-white py-20">
 
+    <div class="max-w-7xl mx-auto px-8">
+
+      <h1 class="text-4xl font-black text-center text-gray-800">
+        Adeegyadeena
+      </h1>
+
+      <p class="text-center text-gray-500 mt-4">
+        Waxaan bixinaa adeegyo caafimaad oo tayo sare leh
+      </p>
+
+      <div class="grid md:grid-cols-3 gap-10 mt-16">
+
+        <!-- Card 1 -->
+        <div class="bg-blue-600 text-white p-10 rounded-3xl shadow-xl hover:-translate-y-2 duration-300">
+
+          <i class="fa-solid fa-truck-medical text-6xl"></i>
+
+          <h2 class="text-2xl font-bold mt-6">
+            Gurmad Degdeg ah
+          </h2>
+
+          <p class="mt-4 text-gray-100">
+            Adeeg degdeg ah oo 24/7 diyaar u ah bukaannada.
+          </p>
+
+        </div>
+
+        <!-- Card 2 -->
+        <div class="bg-white border-2 border-blue-100 p-10 rounded-3xl shadow-xl hover:-translate-y-2 duration-300">
+
+          <i class="fa-solid fa-heart-circle-check text-6xl text-blue-600"></i>
+
+          <h2 class="text-2xl font-bold mt-6 text-gray-800">
+            Daaweyn Tayo leh
+          </h2>
+
+          <p class="mt-4 text-gray-600">
+            Waxaan bixinaa adeeg caafimaad oo heer sare ah.
+          </p>
+
+        </div>
+
+        <!-- Card 3 -->
+        <div class="bg-white border-2 border-blue-100 p-10 rounded-3xl shadow-xl hover:-translate-y-2 duration-300">
+
+          <i class="fa-solid fa-user-doctor text-6xl text-blue-600"></i>
+
+          <h2 class="text-2xl font-bold mt-6 text-gray-800">
+            Dhakhaatiir Khibrad leh
+          </h2>
+
+          <p class="mt-4 text-gray-600">
+            Koox xirfadlayaal caafimaad oo waayo-aragnimo leh.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- STATS -->
+  <section class="bg-blue-600 py-20">
+
+    <div class="max-w-7xl mx-auto px-8 grid md:grid-cols-4 gap-10 text-center text-white">
+
+      <div>
+        <h1 class="text-5xl font-black">15K+</h1>
+        <p class="mt-3 text-lg">Bukaan La Daweeyay</p>
+      </div>
+
+      <div>
+        <h1 class="text-5xl font-black">200+</h1>
+        <p class="mt-3 text-lg">Dhakhaatiir</p>
+      </div>
+
+      <div>
+        <h1 class="text-5xl font-black">20+</h1>
+        <p class="mt-3 text-lg">Sano Khibrad ah</p>
+      </div>
+
+      <div>
+        <h1 class="text-5xl font-black">50+</h1>
+        <p class="mt-3 text-lg">Qeybood</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="py-20 bg-gray-100">
+
+    <div class="max-w-6xl mx-auto px-8 text-center">
+
+      <h1 class="text-4xl font-black text-gray-800">
+        Nagu Saabsan
+      </h1>
+
+      <p class="text-gray-600 mt-8 leading-loose text-lg">
+        Isbitaalkeenu wuxuu bulshada u adeegayay sanado badan.
+        Waxaan ku dadaalnaa in qof walba helo adeeg caafimaad
+        oo degdeg ah, ammaan ah, iyo daryeel buuxa.
+      </p>
+
+    </div>
+
+  </section>
+
+  <footer id="contact" class="bg-gray-900 text-gray-300 pt-16">
+
+    <div class="max-w-7xl mx-auto px-8 grid md:grid-cols-3 gap-12">
+
+      <div>
+
+        <div class="flex items-center gap-3">
+          <i class="fa-solid fa-hospital text-blue-500 text-3xl"></i>
+          <h1 class="text-2xl font-bold text-white">
+            Isbitaal
+          </h1>
+        </div>
+
+        <p class="mt-6 leading-loose">
+          Waxaan bixinaa adeeg caafimaad oo casri ah,
+          annagoo mudnaanta siinayna badbaadada iyo
+          caafimaadka bulshada.
+        </p>
+
+      </div>
+
+      <div>
+
+        <h2 class="text-2xl font-bold text-white mb-6">
+          Links
+        </h2>
+
+        <ul class="space-y-4">
+
+          <li>
+            <a href="#" class="hover:text-blue-400 duration-300">
+              Bogga Hore
+            </a>
+          </li>
+
+          <li>
+            <a href="#about" class="hover:text-blue-400 duration-300">
+              Nagu Saabsan
+            </a>
+          </li>
+
+          <li>
+            <a href="#services" class="hover:text-blue-400 duration-300">
+              Adeegyada
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div>
+
+        <h2 class="text-2xl font-bold text-white mb-6">
+          Xiriir
+        </h2>
+
+        <ul class="space-y-5">
+
+          <li class="flex items-center gap-3">
+            <i class="fa-solid fa-phone text-blue-500"></i>
+            +252 618134093
+          </li>
+
+          <li class="flex items-center gap-3">
+            <i class="fa-solid fa-envelope text-blue-500"></i>
+            info@hospital.com
+          </li>
+
+          <li class="flex items-center gap-3">
+            <i class="fa-solid fa-location-dot text-blue-500"></i>
+            Seybiyaano KM4, Muqdisho
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+    <div class="border-t border-gray-700 mt-12 py-6 text-center text-gray-500">
+      © 2025 Isbitaal. Xuquuqda way dhowran tahay.
+    </div>
+
+  </footer>
 
 </body>
 </html>
